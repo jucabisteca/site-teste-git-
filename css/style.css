@@ -1,0 +1,50 @@
+  *{
+        width: inherit;
+        height: 100%; 
+        margin: 0;
+        padding: 0;
+    }
+input{
+    border-radius: 32px; /*arredonda a borda*/
+    border: 1px solid #00af3f;
+    padding: 8px;
+    margin: 4px ; 
+    /*padding pra dentro , margin pra fora */
+
+
+}
+    
+
+body{
+        width: 100%;
+        overflow: hidden;   
+        background-image: url('../imagens/youtube-views-03a.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    
+    }
+
+    div{
+        text-align: center;
+        background-color: white;
+        width: fit-content;
+        height: fit-content; 
+        margin: auto;
+        padding: 1em;
+        border-radius: 7px;
+        
+    }
+    
+    form{
+        text-align: right;
+    
+    }
+
+    form label{
+       text-align: left;
+    }
+
+    img {
+      width: 300px;  
+    }
